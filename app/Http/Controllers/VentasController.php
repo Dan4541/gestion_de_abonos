@@ -10,7 +10,7 @@ class VentasController extends Controller
 {
     public function index(){
         $clientes = Cliente::all();
-        $ventas = Venta::all();
+        $ventas = Venta::with('cliente')->get();
         return view('ventas.index', compact('clientes', 'ventas'));
     }
 

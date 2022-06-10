@@ -1,4 +1,4 @@
-<h2 class="my-4">Datos del Cliente</h2>
+<h2 class="my-4">Gestion de Ventas</h2>
 
 <div class="card mb-4">
     <div class="card-body">

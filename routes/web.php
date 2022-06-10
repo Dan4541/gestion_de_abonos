@@ -26,3 +26,4 @@ Route::get('/ventas', [VentasController::class, 'index'])->name('ventas-index');
 Route::post('ventas/store', [VentasController::class, 'store'])->name('ventas-store');
 
 Route::get('/abonos', [AbonosController::class, 'index'])->name('abonos-index');
+Route::post('/abonos/store', [AbonosController::class, 'store'])->name('abonos-store');

@@ -25,7 +25,7 @@
                             <td>{{$item->id_venta}}</td>
                             <td>{{$item->fecha}}</td>
                             <td>{{$item->comentario}}</td>
-                            <td>{{$item->total}}</td>
+                            <td>₡ {{$item->total}}</td>
                             <td>{{$item->id_cliente}}</td>
                                                                          
                         </tr>
